@@ -1,0 +1,57 @@
+body {
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fe8c00 , #f83600); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+
+#header {
+     font-size: 48px;
+   }
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-shadow: 1px 1px 10px  #aaa;
+  font-size: 24px;
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+
+}
+
+h3{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+
+}
+
+h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+div.slide-right {
+  overflow:hidden;
+}
+div.slide-right h1 {
+  animation: 4s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
