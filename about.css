@@ -4,24 +4,27 @@ body {
   background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    }
 
-#header {
-     font-size: 48px;
-   }
-
 p {
-  color: white;
+  color: #black;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-shadow: 1px 1px 10px  #aaa;
   font-size: 24px;
+  padding-left: 10px;
 }
-
+a {
+text-decoration: none;
+color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
 h1{
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 48px;
-
 }
 
 h3{
@@ -29,7 +32,6 @@ h3{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 36px;
-
 }
 
 h2{
