@@ -43,11 +43,11 @@ div.slide-right {
   overflow:hidden;
 }
 div.slide-right h1 {
-  animation: 4s slide-right;
+  animation: 2s slide-right;
 }
 
 div.slide-right h2 {
-  animation: 4s slide-right;
+  animation: 2s slide-right;
 }
 
 @keyframes slide-right {
