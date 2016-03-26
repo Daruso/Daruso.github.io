@@ -1,7 +1,7 @@
 body {
-  background: #B3FFAB; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #B3FFAB , #12FFF7); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #B3FFAB , #12FFF7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #C04848;
+  background: -webkit-linear-gradient(to left, #C04848 , #480048);
+  background: linear-gradient(to left, #C04848 , #480048);
     }
 
 p {
@@ -15,6 +15,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #999999;
 }
 
 h1{
