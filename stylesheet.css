@@ -2,7 +2,7 @@ body {
   background: #fe8c00;
   background: -webkit-linear-gradient(to left, #fe8c00 , #f83600);
   background: linear-gradient(to left, #fe8c00 , #f83600);
-   }
+ }
 
 p {
   color: white;
@@ -28,7 +28,6 @@ p.goaltop {
   top: -22px;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -37,26 +36,27 @@ h1{
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 
 h3.leftpad {
-padding-left: 100px;
+position: relative;
+left: 13px;
 }
 
 h3 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 h2 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 div.slide-right {
