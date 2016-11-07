@@ -11,6 +11,7 @@ main {
   margin: 0 auto;
   max-width: 50em;
 }
+
 header {
 background-color: #263d36;
 background-image: url("header.jpg");
@@ -19,15 +20,9 @@ background-repeat: no-repeat;
 background-size: cover;
 max-width: none;
 line-height: 1.2;
-padding: 10vw 2em;
+padding: 10vw 3em;
 text-align: center;
-}
-
-header img {
-  display: inline-block;
-  height: 120px;
-  vertical-align: top;
-  width: 120px;
+color: white;
 }
 
 header h1 {
@@ -39,10 +34,8 @@ header h1 {
 nav{
   position: fixed;
 }
-nav ul{
 
-}
-header a, nav a{
+header a, nav a {
   border: 1px solid #e81c4f;
   border-radius: 200px;
   color: white;
@@ -55,7 +48,7 @@ header a, nav a{
   transition-property: color, background;
 }
 
-header a:hover {
+header a:hover, nav a:hover {
   background:  #e81c4f;
   color: white;
 }
