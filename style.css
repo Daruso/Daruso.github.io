@@ -36,7 +36,13 @@ header h1 {
   font-weight: 300;
 }
 
-header a {
+nav{
+  position: fixed;
+}
+nav ul{
+
+}
+header a, nav a{
   border: 1px solid #e81c4f;
   border-radius: 200px;
   color: white;
