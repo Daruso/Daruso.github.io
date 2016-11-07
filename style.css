@@ -54,6 +54,7 @@ nav li {
 
 nav{
   position: absolute;
+  z-index: 2;
 }
 
 header a, nav a {
