@@ -23,6 +23,8 @@ line-height: 1.2;
 padding: 10vw 3em;
 text-align: center;
 color: white;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 header h1 {
@@ -51,7 +53,7 @@ nav li {
 
 
 nav{
-  position: fixed;
+  position: absolute;
 }
 
 header a, nav a {

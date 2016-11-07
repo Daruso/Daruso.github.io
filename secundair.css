@@ -3,11 +3,14 @@ body {
   color: #566b78;
   background: white;
   margin: 0 auto;
+  background: #141E30;
+background: -webkit-linear-gradient(to left, #141E30 , #243B55);
+background: linear-gradient(to left, #141E30 , #243B55);
 }
 
 main {
     line-height: 1.5;
-  padding: 4em 1em;
+  padding: 1em 1em;
   margin: 0 auto;
   max-width: 50em;
 }
@@ -23,6 +26,8 @@ line-height: 1.2;
 padding: 10vw 3em;
 text-align: center;
 color: white;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 header h1 {
@@ -51,6 +56,7 @@ header h1 {
 
 nav{
   position: fixed;
+  z-index: 2;
 }
 
 header a, nav a {
