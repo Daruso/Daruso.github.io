@@ -1,23 +1,24 @@
 body {
-  margin: 0 auto;
-  max-width: 50em;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  line-height: 1.5;
-  padding: 4em 1em;
   color: #566b78;
   background: white;
+  margin: 0px;
 }
 
-navbar {
-background-color: grey;
+main {
+    line-height: 1.5;
+  padding: 4em 1em;
+  margin: 0 auto;
+  max-width: 50em;
 }
 header {
-  background-color: #263d36;
+background-color: #263d36;
 background-image: url("header.jpg");
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
 max-width: none;
+margin: 0px;
 line-height: 1.2;
 padding: 10vw 2em;
 text-align: center;
