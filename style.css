@@ -2,7 +2,7 @@ body {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #566b78;
   background: white;
-  margin: 0px;
+  margin: 0 auto;
 }
 
 main {
@@ -18,7 +18,6 @@ background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
 max-width: none;
-margin: 0px;
 line-height: 1.2;
 padding: 10vw 2em;
 text-align: center;
