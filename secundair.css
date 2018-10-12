@@ -4,8 +4,10 @@ body {
   background: white;
   margin: 0 auto;
   background: #141E30;
-background: -webkit-linear-gradient(to left, #141E30 , #243B55);
-background: linear-gradient(to left, #141E30 , #243B55);
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
 }
 
 main {
@@ -17,8 +19,8 @@ main {
 
 header {
 background-color: #263d36;
-background-image: url("header.jpg");
-background-position: center top;
+background-image: url("r_central.jpg");
+background-position: center bottom;
 background-repeat: no-repeat;
 background-size: cover;
 max-width: none;
