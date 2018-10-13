@@ -31,7 +31,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 header h1 {
   color: white;
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 @media only screen and (max-width : 640px)
