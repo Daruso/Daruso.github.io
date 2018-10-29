@@ -1,29 +1,27 @@
 body {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  color: #566b78;
+  /* color: #566b78; */
+  color: #363738;
   background: white;
   margin: 0 auto;
-  background: #141E30;
-background: -webkit-linear-gradient(to left, #141E30 , #243B55);
-background: linear-gradient(to left, #141E30 , #243B55);
 }
 
 main {
     line-height: 1.5;
-  padding: 1em 1em;
+  padding: 2em 15em;
   margin: 0 auto;
   max-width: 50em;
 }
 
 header {
 background-color: #263d36;
-background-image: url("header.jpg");
-background-position: center top;
+background-image: url("r_central.jpg");
+background-position: center bottom;
 background-repeat: no-repeat;
 background-size: cover;
 max-width: none;
 line-height: 1.2;
-padding: 10vw 3em;
+padding: 4vw 3em;
 text-align: center;
 color: white;
 -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -33,7 +31,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 header h1 {
   color: white;
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 @media only screen and (max-width : 640px)
@@ -42,6 +40,9 @@ header h1 {
     width:85px;
     display: inline;
     float:left;
+  }
+  main {
+    padding: 2em 5em;
   }
 }
 
