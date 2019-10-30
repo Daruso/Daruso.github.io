@@ -2,6 +2,7 @@ body {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #566b78;
   background: white;
+  background-image: url("bg-dots.png");
   margin: 0 auto;
 }
 
