@@ -3,6 +3,7 @@ body {
   /* color: #566b78; */
   color: #363738;
   background: white;
+  background-image: url("bg-dots.png");
   margin: 0 auto;
 }
 
